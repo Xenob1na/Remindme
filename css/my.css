@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+body {
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.section {
+    margin-bottom: 150px;
+}
+
+
+.main__section-header {
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo, .menu {
+    display: inline-block;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.menu li {
+    display: inline-block;
+    padding-left: 50px;
+}
+.menu li a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.menu li a.active {
+    color: #2D76F9;
+    font-weight: 700;
+}
+
+.logo__importan {
+    color: #2D76F9;
+}
+
+.btn {
+margin-top: 1rem;
+   border-radius: 50px;
+   background: none;
+   border: 1px solid #2D76F9; 
+   padding: 10px 30px;
+   font-size: 18px;
+   color: #2D76F9;
+   font-weight: 400;
+   
+
+}
+
+.bt-pr {
+    margin-left: 30rem;
+}
+
+.main__section {
+    position: relative;
+    min-height: 850px;
+}
+
+.main__section .background  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: url(../images/fon.png) 100% 0% no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 80px;
+}
+
+.main__section .background-fone {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    margin-top: -305px;
+    width: 560px;
+    height: 610px;
+    background: url(../images/telefon.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+
+
+.main__section-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 85px;
+    margin-bottom: 50px;
+}
+
+.text__main {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #747474;
+    margin-bottom: 50px;
+}
+
+.btn-secondary {
+    background: #2D76F9;
+    color: white;
+    padding: 20px 60px;
+}
+
+
+.section-advantages .icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../images/kalendari.svg) 50% 50% no-repeat;
+    background-size: contain;
+    margin-bottom: 50px;
+}
+
+.section-advantages .icon-2 {
+    background-image: url(../images/list.svg);
+}
+
+.section-advantages .icon-3 {
+    background-image: url(../images/zvonok.svg);
+}
+
+.te-h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.te-bl-1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #747474;
+}
+
+.section-description-1 {
+    position: relative;
+}
+
+
+.section-description-1 .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background: url(../images/fon.png) 100% 50% no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.col-description-1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.te-h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 65px;
+}
+
+.te-bl-2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #747474;
+}
+
+.section-description-1 .bg-description-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/fon-2.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.section-description-2 {
+    position: relative;
+}
+
+.section-description-2 .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: url(../images/fon.png) 100% 50% no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+.section-description-2 .bg-description-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/fon-3.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+
+
+.section-donwload .container {
+    position: relative;
+    background: #2D76F9;
+    border-radius: 50px;
+    overflow: hidden;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.section-donwload .background {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 0;
+background: url(../images/krugli.png) 50% 50% no-repeat;
+background-size: cover;
+}
+
+.section-donwload .section-content {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donwload-h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.section-donwload .action-container {
+    padding-top: 50px;
+}
+
+.section-donwload .action-container .btn {
+margin: 0 30px;
+}
+
+.bt-1 {
+border-color: white;
+background: white;
+}
+
+.btn-2 {
+    border-color: white;
+    background: none;
+    color: white;
+    padding: 10px 50px;
+}
+.section-testimonials {
+position: relative;
+}
+.section-testimonials .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background: #EEF4FF;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.col-testimonials {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 15rem;
+    bottom: 0;
+    background: url(../images/lydii.png) 100% 50% no-repeat;
+    background-size: contain;
+}
+
+
+.col-testimonials {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.testimonials li {
+list-style: none;
+}
+.testimonials .user {
+    display: flex;
+}
+
+.testimonials .user .avatar{
+    border-radius: 50%;
+    width: 80px;
+    min-width: 80px;
+    height: 90px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
